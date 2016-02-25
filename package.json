@@ -11,7 +11,7 @@
     "webpack": "webpack --bail -p --progress",
     "pretest": "./node_modules/.bin/eslint .",
     "test": "./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
-    "preversion": "npm test",
+    "preversion": "npm test && npm run webpack",
     "postversion": "git push && git push --tags && npm publish"
   },
   "repository": "arpinum-oss/js-angular1",
