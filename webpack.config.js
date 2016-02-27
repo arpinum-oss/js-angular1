@@ -16,6 +16,12 @@ config.output = {
   libraryTarget: 'umd'
 };
 
+config.externals = {
+  angular: 'angular',
+  moment: 'moment',
+  lodash: 'lodash'
+};
+
 config.module = {
   loaders: [{
     test: /\.js$/,
