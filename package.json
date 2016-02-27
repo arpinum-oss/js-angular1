@@ -30,6 +30,7 @@
     "chai-as-promised": "^5.2.0",
     "eslint": "^2.2.0",
     "eslint-config-arpinum": "^3.0.0",
+    "lodash": "^4.5.1",
     "mocha": "^2.4.5",
     "moment": "^2.11.2",
     "ng-annotate-loader": "^0.1.0",
