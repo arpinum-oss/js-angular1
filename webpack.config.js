@@ -18,8 +18,9 @@ config.output = {
 
 config.externals = {
   angular: 'angular',
-  moment: 'moment',
-  lodash: 'lodash'
+  bluebird: 'bluebird',
+  lodash: 'lodash',
+  moment: 'moment'
 };
 
 config.module = {
