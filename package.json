@@ -1,6 +1,6 @@
 {
   "name": "@arpinum/angular1",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Collection of simple Angular 1 reusable modules",
   "main": "./dist/index.js",
   "files": [
