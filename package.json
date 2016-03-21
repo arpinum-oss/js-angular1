@@ -9,9 +9,10 @@
   ],
   "scripts": {
     "webpack": "webpack --bail --progress",
-    "pretest": "./node_modules/.bin/eslint .",
-    "test": "./node_modules/.bin/mocha --colors --reporter spec --recursive lib",
-    "preversion": "npm test && npm run webpack",
+    "eslint": "./node_modules/.bin/eslint .",
+    "mocha": "mocha --colors --reporter spec --recursive lib",
+    "test": "npm run eslint && npm run mocha && npm run webpack",
+    "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
   "repository": "arpinum-oss/js-angular1",
