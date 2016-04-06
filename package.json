@@ -15,7 +15,7 @@
     "preversion": "npm test",
     "postversion": "git push && git push --tags && npm publish"
   },
-  "repository": "arpinum-oss/js-angular1",
+  "repository": "arpinum/js-angular1",
   "keywords": [
     "Angular"
   ],
