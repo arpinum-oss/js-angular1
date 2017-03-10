@@ -2,6 +2,8 @@
 
 **js-angular1** is a collection of simple Angular 1 reusable modules.
 
+This project is unmaintained.
+
 ## License
 
 [MIT](LICENSE)
